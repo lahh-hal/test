@@ -1,0 +1,121 @@
+/* 全体 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* コンテナ */
+.container {
+  background-color: #d6e5ff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+/* ヘッダー */
+header {
+  background-color: #d6e5ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100% - 200px);
+}
+
+h1 {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  text-shadow: 2px 2px #333;
+}
+
+/* コンテンツ */
+.content {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  padding: 20px;
+}
+
+.left {
+  background-color: #ffe0f0;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.right {
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.links a {
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #555;
+}
+
+.links a:hover {
+  color: #ff69b4;
+}
+
+.timeline {
+  margin-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+  color: #888;
+}
+
+/* フッター */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #d6e5ff;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.caption {
+  font-size: 14px;
+  font-style: italic;
+  color: #888;
+}
